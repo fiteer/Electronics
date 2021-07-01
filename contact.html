@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/validation.js"></script>
+</head>
+<body>
+    <!-- Start Navbar -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html"><h1>E-commerce</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="index.html" data-after="Home">Home</a></li>
+                        <li><a href="camera.html" data-after="Services">Camera</a></li>
+                        <li><a href="games.html" data-after="Sbout">Games</a></li>
+                        <li><a href="tools.html" data-after="Sbout">Tools</a></li>
+                        <li><a href="others.html" data-after="Sbout">Others</a></li>
+                        <li><a href="contact.html" data-after="Contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="homepage">
+        <div class="homepage container">
+            <div class="homepage-info">
+                <h1>Sale of Electronic Products<span></span></h1> 
+            </div>
+        </div>
+    </section>
+    <!-- End Header Section -->
+    <!-- Start Contact Section -->
+    <section id="cont">
+        <div class="cont container">
+            
+            <div class="contact-header">
+                <div id="errors"></div>
+                <form action="" id="myform" onsubmit="return validation()">
+                    <div class="control-info">
+                        <input type="text" name="fullname" placeholder="Name" id="fullname">
+                        <input type="email" name="email" placeholder="Email" id="email">
+                        <input type="text" name="phone" placeholder="Number Your phone" id="phone">
+                        <input type="text" name="subject" placeholder="Your subject" id="subject">           
+                        <textarea name="" placeholder="Your Message" id="message"></textarea>
+                    </div>
+                    <input class="control-submit" type="submit" value="SEND MESSAGE">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+    <section id="contact">
+        <div class="contact container">            
+            <p>Copyright &copy 2021: E-commerce</p>
+        </div>
+    </section>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
+    
